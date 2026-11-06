@@ -1,0 +1,7 @@
+{
+  "qa":       {"client_id": "", "client_secret": ""},
+  "reviewer": {"client_id": "", "client_secret": ""},
+  "engineer": {"client_id": "", "client_secret": ""},
+  "intake":   {"client_id": "", "client_secret": ""},
+  "duty":     {"client_id": "", "client_secret": ""}
+}

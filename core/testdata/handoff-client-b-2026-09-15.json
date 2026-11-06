@@ -1,0 +1,5049 @@
+[
+ {
+  "каталог": "DEV-13-20260913-211428",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 164,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-13",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-13"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-13-20260913-211428/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/ai-duty-skill-i"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/prompt-refactor"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-13-20260913-211428/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-13-20260913-211428/revie"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-13",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-13-20260914-025529",
+  "код": 0,
+  "файлы": [],
+  "вызовов всего": 27,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "id": "423ae59a-d4da-4b26-af3a-2732d9cb5bff"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-13",
+     "state": "Canceled",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-16-20260914-001208",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 80,
+  "вызовы": [
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "issueUpdate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate stateId"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-16-verify-20260914-005411",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 46,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-16"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-16"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-16"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-16",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-16-verify-20260914-013236",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 35,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-16"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-16"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-16"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-16",
+     "state": "In Progress",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-17-verify-20260913-204639",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 49,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-17"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-17"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-17"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-17",
+     "state": "Done",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-18-20260914-001311",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 103,
+  "вызовы": [
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate stateId"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-18-20260914-001311/agent"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-18-20260914-001311/agent"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-18-20260914-001311/revie"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate stateId"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-18-20260914-014220",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 77,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-18",
+     "state": "Verifying"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-18-verify-20260914-005943",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 38,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-18",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-18-verify-20260914-013241",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 50,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-18",
+     "state": "In Progress",
+     "assignee": "d7c194b2-72ef-478e-ac4f-bc452150a196"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-18-verify-20260914-015642",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 31,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-18",
+     "state": "In Review",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-18-verify-20260914-024814",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-18"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-18",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-20-20260912-150816",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 104,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-12"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-20",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-20-20260912-150816/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-20-20260912-150816/agent"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-20",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-20-20260914-024002",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 59,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/live-installati"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-20",
+     "state": "Verifying"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-20-verify-20260913-204803",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 30,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-20",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-20-verify-20260913-235337",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 29,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-13"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-20",
+     "state": "Not Verified",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-20-verify-20260914-030322",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 32,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-20"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-20",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-32-20260912-153005",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 42,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-32",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-32",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-32-verify-20260913-205217",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 23,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__get_document",
+    "input": {
+     "id": "arhitektura-pamyati-stor-na-organizaciyu-fb6e8673664d"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-32"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-32",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-32",
+     "state": "Done",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-38-20260914-031033",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 62,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-38",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-38"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-38-20260914-031033/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-38-20260914-031033/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-38-20260914-031033/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-38-20260914-031033/revie"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-38",
+     "state": "Verifying"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-38-verify-20260914-032425",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 25,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-38"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-38",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-20260913-211228",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 87,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/dok-en"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-4-20260913-211228/review"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/code-review-ski"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-20260913-214657",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 79,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/gh-pr-view-edit"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/dok-memory-stre"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-20260914-003841",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 91,
+  "вызовы": [
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "issueUpdate stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "issueUpdate stateId"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-verify-20260913-214614",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 43,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-verify-20260913-220254",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 38,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "Not Verified",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-verify-20260914-011233",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 35,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-4-verify-20260914-021516",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 32,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-4"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-4",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-43-20260912-153741",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 79,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-29"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-43-20260912-153741/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-43-20260912-153741/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-43-20260912-153741/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-43-20260912-153741/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-43-20260914-024319",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 69,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "Verifying"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-43-verify-20260913-205432",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 33,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-43-verify-20260913-235342",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 33,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "Not Verified",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-43-verify-20260914-031105",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 31,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-43-verify-20260914-113026",
+  "код": "нет stats.json",
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 36,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-43"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-43",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-46-20260912-155908",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 159,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-46",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-46-verify-20260913-193043",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 58,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-46-verify-20260913-213025",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 39,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-46-verify-20260913-213857",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-46",
+     "state": "Not Verified",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-46-verify-20260914-000721",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 27,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-46",
+     "state": "Done",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-46-verify-20260914-005144",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 39,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-46"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-46",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-46",
+     "state": "Done",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-47-20260912-162616",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 138,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-47",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/source-scanning"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-47",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-47",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-47-verify-20260913-193049",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 40,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-47-verify-20260913-204348",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 27,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-47"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-47",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-47",
+     "state": "Done",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-48-20260912-165442",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 128,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-48-20260912-165442/dok-e"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-48-20260914-022735",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 80,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/literal-whiteli"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/remutate-traps-"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/node-test-tap-i"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "Verifying"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-48-verify-20260913-205728",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 31,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-48-verify-20260914-000003",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 44,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "Not Verified",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-48-verify-20260914-030030",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 43,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-48"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "id": "58c44c33-a240-48e1-abe8-0c0e433e39ab"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-48",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-55-20260912-172118",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 22,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-55"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-55"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-55",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-55"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-55"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-55",
+     "state": "Canceled",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-58-20260911-122026",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 0,
+  "вызовы": []
+ },
+ {
+  "каталог": "DEV-59-20260911-172250",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 60,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-59",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-59",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-59",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "id": "b55afb48-16f4-45e5-beac-acc336659bfb"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-59-verify-20260913-192231",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 20,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-59",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-59-verify-20260914-000051",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 30,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-59",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-59-verify-20260914-010737",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 27,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-59"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-59",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-62-20260912-013856",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 102,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-62",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "assignee": "Andrey"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-62",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-62-verify-20260912-030351",
+  "код": "нет stats.json",
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 25,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-62"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-62",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-65-20260912-204610",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 54,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-65"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-65",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-65"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-65"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-65",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-66-20260912-214438",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 122,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-66-20260912-214438/agent"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-66-20260912-225851",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 141,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-66-20260914-022505",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 86,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "Verifying"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-66-verify-20260913-210036",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 36,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-77"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-78"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-66-verify-20260914-025608",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 32,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-66"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-66",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-67-20260912-214322",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 171,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-67"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-67",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-67"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Edit",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-work-client-b/DEV-67-20260912-214322/agent"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-67"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-67",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-67",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-67-verify-20260913-210512",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 37,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-67"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-67"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-67"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-67",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-67",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-68-20260912-232905",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 155,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-68"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-68"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-68",
+     "state": "In Progress"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-68"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/lineartracker-u"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/agent-memory-client-b/agent-work/agent-factory-m"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-68"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-68",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-68",
+     "state": "In Review",
+     "assignee": "owner@example.com"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-68-verify-20260913-210857",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-68"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-68"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-68"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "id": "7ed77919-ce75-4f91-9b03-f7bca4e0a139"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-68",
+     "state": "Done",
+     "assignee": "owner@example.com"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-68",
+     "state": "Done",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-74-verify-20260913-162532",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 132,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-74"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-74"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-74"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-74",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-75-verify-20260913-172317",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 28,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-75",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-75-verify-20260913-191556",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "55a24b0e-f39b-431d-b8fc-05d0132644bf"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-75",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-75"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-75",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-76-20260914-004059",
+  "код": 0,
+  "файлы": [
+   "review.md"
+  ],
+  "вызовов всего": 50,
+  "вызовы": [
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate issueUpdate stateId"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-76-verify-20260913-182803",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 27,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-76-verify-20260913-183308",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 39,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-76",
+     "state": "Not Verified",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-76",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-76-verify-20260914-011230",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-76",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-76-verify-20260914-021555",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-76",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-76-verify-20260914-022046",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 36,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-76"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-76",
+     "state": "In Review",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_users",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-76",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-77-verify-20260913-192059",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 37,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-77"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_teams",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-77"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-77"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-78-verify-20260913-231927",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 46,
+  "вызовы": [
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId issueUpdate stateId"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-78-verify-20260913-233741",
+  "код": "нет stats.json",
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 48,
+  "вызовы": [
+   {
+    "name": "Bash",
+    "input": {
+     "command": "commentCreate"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-78-verify-20260914-000703",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 29,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-78"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-78"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-78"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-78",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-80-verify-20260913-230650",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 34,
+  "вызовы": []
+ },
+ {
+  "каталог": "DEV-81-verify-20260914-010726",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 27,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-81"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-81"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-81"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-81",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-81-verify-20260914-022108",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 18,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-81"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-81"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-81"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-81",
+     "state": "In Review",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-83-verify-20260914-010142",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 35,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-83"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-83"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-83"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-84-verify-20260914-011923",
+  "код": "нет stats.json",
+  "файлы": [],
+  "вызовов всего": 53,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-84"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-84"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-84-verify-20260914-014502",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 31,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-84"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-84"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-84"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-84",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-85-verify-20260914-145527",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 36,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-85"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-85"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-85"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-85",
+     "state": "Not Verified",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-85",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-85-verify-20260914-164042",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 33,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-85"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-85"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-85"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-85",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "Write",
+    "input": {
+     "file_path": "/home/ubuntu/.claude/projects/-home-ubuntu-agent-work-doktom"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-86-verify-20260914-221901",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 51,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-86"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-86",
+     "state": "Done",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-86",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "id": "21d048a7-f81e-4952-b0d1-f6af7b734e5f"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-86"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-86-verify-20260914-224811",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 36,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-77"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-86"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-86",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-87-verify-20260914-205504",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 31,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-87"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-87"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-87"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-87",
+     "state": "Not Verified",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-87",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-88-verify-20260914-231156",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 35,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-88"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-88"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-88"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-88",
+     "state": "Not Verified",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-88",
+     "state": "Not Verified",
+     "assignee": "16449503-87df-4b54-a0eb-511c520d1dfe"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-88",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-89-verify-20260914-233827",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 37,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-89"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-89"
+    }
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "stateId"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-89"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-89",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-93-verify-20260914-225103",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 29,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-93"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-93"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_statuses",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-93"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-93",
+     "state": "Not Verified",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-93",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-96-verify-20260914-224428",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 45,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-96"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-96"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issue_labels",
+    "input": {}
+   },
+   {
+    "name": "Bash",
+    "input": {
+     "command": "assigneeId stateId"
+    }
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-96"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-96",
+     "state": "Not Verified",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "DEV-97-verify-20260914-223426",
+  "код": 0,
+  "файлы": [
+   "verdict.txt"
+  ],
+  "вызовов всего": 37,
+  "вызовы": [
+   {
+    "name": "mcp__linear__get_issue",
+    "input": {
+     "id": "DEV-97"
+    }
+   },
+   {
+    "name": "mcp__linear__list_comments",
+    "input": {
+     "issueId": "DEV-97"
+    }
+   },
+   {
+    "name": "mcp__linear__save_comment",
+    "input": {
+     "issueId": "DEV-97"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-97",
+     "state": "Done",
+     "assignee": "Андрей"
+    }
+   },
+   {
+    "name": "mcp__linear__save_issue",
+    "input": {
+     "id": "DEV-97",
+     "state": "Done",
+     "assignee": "beskrovnykh@client-b.app"
+    }
+   }
+  ]
+ },
+ {
+  "каталог": "INTAKE-6a827913368a-intake-20260911-062037",
+  "код": "нет stats.json",
+  "файлы": [
+   "draft.json"
+  ],
+  "вызовов всего": 0,
+  "вызовы": []
+ },
+ {
+  "каталог": "INTAKE-7bc73da54fc1-intake-20260912-013622",
+  "код": "нет stats.json",
+  "файлы": [
+   "draft.json"
+  ],
+  "вызовов всего": 7,
+  "вызовы": [
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   },
+   {
+    "name": "mcp__linear__list_issues",
+    "input": {}
+   }
+  ]
+ },
+ {
+  "каталог": "INTAKE-smoke02-intake-20260910-022237",
+  "код": "нет stats.json",
+  "файлы": [
+   "draft.json"
+  ],
+  "вызовов всего": 0,
+  "вызовы": []
+ }
+]

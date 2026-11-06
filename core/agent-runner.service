@@ -1,0 +1,42 @@
+[Unit]
+Description=agent-runner — автономные Claude-сессии по задачам из Linear
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/agent-runner
+# Токен Claude (CLAUDE_CODE_OAUTH_TOKEN), пароль Redis, ключ Linear, чат
+# Telegram. Host-local, не в репо — как ~/.aiduty-env у ai-duty.
+EnvironmentFile=/home/ubuntu/.agent-runner-env
+# claude поставлен через fnm — под systemd PATH сбрасывается, без этого
+# «claude: not found» вместо сессии.
+Environment=PATH=/home/ubuntu/.local/share/fnm/aliases/default/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 /home/ubuntu/agent-runner/runner.py
+Restart=always
+RestartSec=10
+# Сессии — дочерние процессы; при рестарте даём им время доработать, а не
+# рубим на полуслове (KillMode=mixed: SIGTERM только самому раннеру).
+KillMode=mixed
+# Больше бюджета самой длинной сессии (3600 с) плюс 10 минут на то, чтобы
+# снятая сессия дописала вердикт и отпустила ветку. Было 300 — и рестарт,
+# совпавший с сессией, убивал её SIGKILL'ом вместе с записью о цене.
+TimeoutStopSec=4200
+# Хост несёт прод-стек: сессии не должны выесть его целиком.
+MemoryMax=4G
+# Лимит один на весь юнит — и оба слота, и сам раннер живут под ним. С
+# дефолтным OOMPolicy=stop это значит, что OOM в ОДНОЙ сессии останавливает
+# юнит целиком: 30.08.2026 сессия TASK-170 доросла до 3.8G на разборе истории
+# коммитов, ядро убило её процесс, а systemd следом снял раннер и соседний
+# слот с чужой задачей (поднял через Restart=always десятью секундами позже).
+# `continue` оставляет последствия там, где случились: убитая сессия вернёт
+# ненулевой код, run_session штатно объяснит это в Linear и вернёт задачу
+# человеку, остальное продолжит работать.
+OOMPolicy=continue
+CPUQuota=150%
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

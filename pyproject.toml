@@ -1,0 +1,26 @@
+# Упаковано ради первого клиента: его events-api ставит приём зависимостью,
+# а не копией файлов. Пакуется только приём — раннер у каждой инсталляции свой
+# процесс на своём сервере и никому не отдаётся.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-factory"
+dynamic = ["version"]
+description = "Приём постановок фабрики агентов: пачка из мессенджера → задача в трекере"
+requires-python = ">=3.12"
+dependencies = ["redis>=5"]
+
+[tool.setuptools.dynamic]
+version = {file = "VERSION"}
+
+[tool.setuptools.packages.find]
+where = ["core"]
+include = ["agent_factory*"]
+
+[tool.setuptools.package-data]
+agent_factory = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["core"]

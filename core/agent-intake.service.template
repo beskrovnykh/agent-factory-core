@@ -1,0 +1,27 @@
+# Шаблон юнита приёма. Заполняется install.sh значениями инсталляции.
+#
+# Отдельный процесс от раннера намеренно: у них разный жизненный цикл. Раннер
+# занят задачей по полчаса и перезапускается при обновлении ядра, а приём всё
+# это время должен принимать. Залипший приём, наоборот, не должен ронять идущие
+# сессии.
+[Unit]
+Description=agent-intake __VERSION__ — приём постановок из мессенджера (__INSTANCE__)
+After=network-online.target redis-server.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+WorkingDirectory=__HOME__
+EnvironmentFile=__ENV_FILE__
+ExecStart=__PYTHON__ -m agent_factory.telegram
+Restart=always
+RestartSec=10
+# Приём складывает куски в очередь и рисует карточки; сессий не разворачивает,
+# и потолок ему нужен на порядок меньше, чем раннеру.
+MemoryMax=256M
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

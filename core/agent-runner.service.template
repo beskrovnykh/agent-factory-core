@@ -1,0 +1,47 @@
+# Шаблон юнита. Заполняется install.sh значениями инсталляции.
+#
+# Фиксированный agent-runner.service рядом — юнит ПЕРВОГО клиента: в нём его
+# пользователь, его пути, его путь к fnm, его потолок памяти и даже название
+# его трекера в описании. Переиспользовать его новой инсталляции нельзя,
+# поэтому здесь то же самое, но параметрами (DEV-10).
+[Unit]
+Description=agent-runner __VERSION__ — автономные Claude-сессии по задачам из трекера (__INSTANCE__)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+WorkingDirectory=__HOME__
+EnvironmentFile=__ENV_FILE__
+# Claude CLI ставится не в системный PATH: у fnm он лежит в каталоге версии.
+# Без явного PATH юнит стартует, а сессия падает на `spawn claude ENOENT`.
+Environment=PATH=__NODE_BIN__:/usr/local/bin:/usr/bin:/bin
+ExecStart=__PYTHON__ __HOME__/runner.py
+Restart=always
+RestartSec=10
+# mixed: сессия разворачивает под-агентов своей группой процессов, и SIGTERM
+# только главному оставил бы их сиротами.
+KillMode=mixed
+# СЛИВ, а не убийство. SIGTERM уходит только раннеру; он перестаёт брать из
+# очереди и ждёт, пока добегут уже запущенные сессии (`worker` → `_stop`,
+# `join(SESSION_TIMEOUT_SEC)`). Всё это время systemd обязан ждать.
+#
+# Значение обязано быть БОЛЬШЕ бюджета самой длинной сессии инсталляции
+# (AGENT_SESSION_TIMEOUT_SEC / AGENT_VERIFY_TIMEOUT_SEC, у обоих клиентов
+# 3600). Иначе рестарт, совпавший с сессией, доходит до SIGKILL по всей
+# cgroup — и сессия пропадает вместе с записью о цене и ходах: до 14.09.2026
+# здесь стояло 300 при бюджете 3600, и четыре запуска не оставили НИЧЕГО.
+# Ставит установщик из STOP_TIMEOUT (по умолчанию бюджет + 10 минут на то,
+# чтобы сессия дописала вердикт, отпустила worktree и перевела задачу).
+TimeoutStopSec=__STOP_TIMEOUT__
+MemoryMax=__MEMORY_MAX__
+# continue, а не kill: OOM-killer снимает дочерний claude.exe, и юнит должен
+# пережить это, а не уйти в рестарт вместе со вторым слотом.
+OOMPolicy=continue
+CPUQuota=__CPU_QUOTA__
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

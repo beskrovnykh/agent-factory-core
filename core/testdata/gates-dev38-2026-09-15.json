@@ -1,0 +1,47 @@
+[
+ {
+  "ворота": "probe-main",
+  "итог": "не прошло",
+  "команда": "python3 /tmp/probe38.py /tmp/afmain",
+  "код": 3,
+  "заметка": "",
+  "источник": "сессия",
+  "когда": 1789502506.7604978
+ },
+ {
+  "ворота": "probe-vetka",
+  "итог": "прошло",
+  "команда": "python3 /tmp/probe38.py /tmp/af38",
+  "код": 0,
+  "заметка": "",
+  "источник": "сессия",
+  "когда": 1789502524.5591388
+ },
+ {
+  "ворота": "pytest-vetka",
+  "итог": "прошло",
+  "команда": "env -u AGENT_ARCHIVE_AFTER_DAYS -u AGENT_DEFERRED_KEY -u AGENT_DEPLOYMENT_SOURCE -u AGENT_ENV_CANON -u AGENT_GATES_FILE -u AGENT_HOME_DIR -u AGENT_INCIDENT_LABEL -u AGENT_ISSUE -u AGENT_KNOWN_REPOS -u AGENT_LINEAR_USER_ID -u AGENT_MAX_BUDGET_USD -u AGENT_MAX_SLOTS -u AGENT_MAX_WORK_ROUNDS -u AGENT_MEMORY_STORE -u AGENT_NOTIFY_CHAT_ID -u AGENT_PEOPLE_MAP -u AGENT_PERSON_MEMORY -u AGENT_POLL_ASSIGNMENTS_SEC -u AGENT_PROJECT_ID -u AGENT_PULL_MAX_IN_FLIGHT -u AGENT_PULL_MAX_OPEN -u AGENT_PULL_MAX_PER_DAY -u AGENT_PULL_PER_WINDOW -u AGENT_PULL_SKIP_LABELS -u AGENT_PULL_WINDOW_SEC -u AGENT_QUEUE_KEY -u AGENT_REPOS_ROOT -u AGENT_REVIEWER_LINEAR_USER_ID -u AGENT_REVIEWER_NAME -u AGENT_REVIEWER_TELEGRAM_ID -u AGENT_TEAM_ID -u AGENT_UNVERIFIED_STATE_NAME -u AGENT_VERIFYING_STATE_NAME -u AGENT_VERIFY_AFTER_MERGE -u AGENT_VERIFY_BEFORE_MERGE -u AGENT_VERIFY_MAX_TURNS -u AGENT_VERIFY_TIMEOUT_SEC -u AGENT_WORK_ROOT -u COREPACK_ENABLE_AUTO_PIN -u CORE_CHECK_INTERVAL_SEC -u CORE_CLONE -u CORE_INSTALL_CONF -u CORE_UPDATE_SOURCE -u DISABLE_AUTOUPDATER -u INTAKE_ALLOWED_USER_IDS -u LINEAR_API_KEY -u LINEAR_API_KEY_DUTY -u LINEAR_API_KEY_ENGINEER -u LINEAR_API_KEY_INTAKE -u LINEAR_API_KEY_QA -u LINEAR_API_KEY_REVIEWER -u REDIS_URL -u TELEGRAM_BOT_TOKEN -u TRACKER_ISSUE_URL -u TRACKER_WEBHOOK_BIND -u TRACKER_WEBHOOK_PATH -u TRACKER_WEBHOOK_PORT -u TRACKER_WEBHOOK_SECRET python3 -m pytest core/ -q",
+  "код": 0,
+  "заметка": "",
+  "источник": "сессия",
+  "когда": 1789502566.3913374
+ },
+ {
+  "ворота": "kontrol-main-bez-modulya",
+  "итог": "прошло",
+  "команда": "bash -c python3 /tmp/probe38.py /tmp/afmain >/dev/null 2>&1; [ $? -eq 3 ]",
+  "код": 0,
+  "заметка": "",
+  "источник": "сессия",
+  "когда": 1789502580.8308072
+ },
+ {
+  "ворота": "imya-peremennoj",
+  "итог": "прошло",
+  "команда": "bash -c V=$(grep -oP \"(?<=ENV_VAR = \\\")[A-Z_]+\" /tmp/af38/core/agent_factory/automerge.py); grep -q \"^$V=\\\"\\\"\" /tmp/af38/install.sh && grep -q \"$V\" /tmp/af38/installation.conf.example && echo \"совпало: $V, умолчание пустое\"",
+  "код": 0,
+  "заметка": "",
+  "источник": "сессия",
+  "когда": 1789502580.9138875
+ }
+]

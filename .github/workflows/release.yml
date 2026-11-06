@@ -1,0 +1,80 @@
+# Релиз продукта. Тег vX.Y.Z → архив, который ставится установщиком.
+#
+# Зачем: до 09.09.2026 инсталляция ставилась из ТЕКУЩЕЙ ветки — что лежало в
+# репозитории на момент установки, то и приезжало. Сказать «у клиента стоит
+# такая-то версия» было нечем, откатиться — тоже (DEV-10).
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Тесты в релизе ещё раз, а не «они же прошли на main»: тег могли
+      # поставить на коммит, который на main не проверялся.
+      - name: тесты
+        run: |
+          pip install -r requirements-dev.txt
+          cd core && python -m pytest -q && python -m compileall -q .
+
+      # Версия в файле и версия в теге обязаны совпадать. Разошлись — значит
+      # инсталляция сообщит одно, а стоит другое, и разбираться с этим будут
+      # в тот момент, когда что-то сломалось.
+      - name: сверить VERSION с тегом
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          file="$(cat VERSION)"
+          if [ "$tag" != "$file" ]; then
+            echo "тег $tag, а в VERSION $file" >&2
+            exit 1
+          fi
+          echo "версия $file"
+
+      # В архив едет только то, что нужно для установки: ядро, установщик,
+      # шаблон юнита, пример конфигурации. Тесты не едут — на хосте нет
+      # pytest, а держать их там незачем.
+      - name: собрать архив
+        run: |
+          v="${GITHUB_REF_NAME#v}"
+          mkdir -p "dist/agent-factory-$v/core"
+          cp core/*.py "dist/agent-factory-$v/core/"
+          rm -f "dist/agent-factory-$v/core/"test_*.py
+          # Пакеты ядра (`agent_factory/`, `roles/`) — `cp core/*.py` кладёт
+          # только файлы, и подкаталог молча не доезжает. Раньше это раннер не
+          # роняло, а с DEV-13 `import prompt` без `roles/` не собирается
+          # вовсе — и установка из такого архива проходит УСПЕШНО, поломку
+          # видно только мёртвыми сессиями у клиента. Список с диска по тому
+          # же признаку, что у установщика.
+          for d in core/*/; do
+            [ -f "$d/__init__.py" ] || continue
+            cp -r "$d" "dist/agent-factory-$v/core/"
+            rm -f "dist/agent-factory-$v/core/$(basename "$d")/"test_*.py
+          done
+          cp core/agent-runner.service.template "dist/agent-factory-$v/core/"
+          # Скилл /code-review: его ставит установщик, когда на хосте нет
+          # своего — без него в архиве установка на чистый хост падает (DEV-93).
+          cp -r core/skills "dist/agent-factory-$v/core/"
+          cp install.sh installation.conf.example requirements.txt VERSION "dist/agent-factory-$v/"
+          chmod +x "dist/agent-factory-$v/install.sh"
+          tar -C dist -czf "agent-factory-$v.tar.gz" "agent-factory-$v"
+          sha256sum "agent-factory-$v.tar.gz" | tee "agent-factory-$v.tar.gz.sha256"
+
+      - name: релиз
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            agent-factory-*.tar.gz
+            agent-factory-*.tar.gz.sha256
+          generate_release_notes: true
