@@ -373,7 +373,7 @@ def test_incident_playbook_is_client_supplied_and_survives_formatting():
     # как и symptom_playbook у build_prompt: генерик-контракт не знает
     # рецептов конкретного клиента, они приходят снаружи и должны дойти до
     # рендера как есть, включая спецсимволы в командах клиента
-    playbook = "docker restart ctrader-livedata-1  # см. x:\\$SECRET"
+    playbook = "docker restart feed-worker-1  # см. x:\\$SECRET"
     text = build_incident_prompt(INCIDENT_TASK, "Андрей", incident_playbook=playbook)
     assert playbook in text
     default_text = build_incident_prompt(INCIDENT_TASK, "Андрей")
@@ -455,7 +455,7 @@ def test_incident_prompt_treats_symptom_and_source_as_data_not_orders():
 
 def test_incident_prompt_has_a_false_alarm_exit():
     # три задокументированных в проекте случая ложных тревог (граница
-    # закрытия CME, malformed token, самовосстановившийся периметр RU) -
+    # закрытия биржи, malformed token, самовосстановившийся периметр) -
     # контракт обязан признавать этот исход, а не заставлять придумывать
     # причину там, где её нет
     text = " ".join(build_incident_prompt(INCIDENT_TASK, "Андрей").split())
